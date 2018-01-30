@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-config-idiomatic-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^8.4.0",
+    "stylelint-order": "^0.8.0"
+  }
+}

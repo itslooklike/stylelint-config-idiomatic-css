@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# editors
+.idea
+.vscode
+*.sublime-*
+.sass-cache
+
+prepros.cfg
+prepros-6.config
+config.codekit3
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+.cache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
