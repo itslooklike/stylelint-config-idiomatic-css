@@ -12,7 +12,7 @@
     "lint": "eslint ./**/*.js *.js",
     "clear": "rm -rf node_modules"
   },
-  "keywords": [],
+  "keywords": ["stylelint", "css sort", "idiomatic css", "styled-components"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
