@@ -1,4 +1,4 @@
-var typography = [
+const typography = [
   'color',
   'font',
   'font-family',

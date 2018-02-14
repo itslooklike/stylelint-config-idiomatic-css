@@ -1,15 +1,14 @@
-var priority = require('./src/priority');
-var positioning = require('./src/positioning');
-var boxModel = require('./src/boxModel');
-var typography = require('./src/typography');
+const priority = require('./src/priority');
+const positioning = require('./src/positioning');
+const boxModel = require('./src/boxModel');
+const backgrounds = require('./src/backgrounds');
+const typography = require('./src/typography');
 
-var other = require('./src/other');
-
-var result = [...priority, ...positioning, ...boxModel, ...typography, ...other];
+const result = [...priority, ...positioning, ...boxModel, ...backgrounds, ...typography];
 
 module.exports = {
   plugins: 'stylelint-order',
   rules: {
-    'order/properties-order': [result, { unspecified: 'bottomAlphabetical' }],
+    'order/properties-order': [result],
   },
 };

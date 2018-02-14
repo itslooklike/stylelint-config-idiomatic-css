@@ -1,4 +1,5 @@
-var flexbox = [
+// https://www.w3.org/TR/css-flexbox-1/
+const FlexibleBoxLayoutModule = [
   'flex',
   'flex-grow',
   'flex-shrink',
@@ -6,16 +7,51 @@ var flexbox = [
   'flex-flow',
   'flex-wrap',
   'flex-direction',
-  'justify-content',
-  'align-items',
-  'align-self',
-  'align-content',
   'order',
 ];
 
-var boxModel = [
+const gridParentRules = [
+  'grid-template',
+  'grid-template-columns',
+  'grid-template-rows',
+  'grid-template-areas',
+  'grid-gap',
+  'grid-column-gap',
+  'grid-row-gap',
+  'grid',
+  'grid-auto-columns',
+  'grid-auto-rows',
+  'grid-auto-flow',
+];
+
+const gridChildrenRules = [
+  'grid-area',
+  'grid-column',
+  'grid-row',
+  'grid-column-start',
+  'grid-column-end',
+  'grid-row-start',
+  'grid-row-end',
+];
+
+// https://www.w3.org/TR/css-grid-1/
+const CSSGridLayoutModule = [...gridParentRules, ...gridChildrenRules];
+
+// https://www.w3.org/TR/css-align-3/
+const CSSBoxAlignmentModule = [
+  'justify-items',
+  'justify-content',
+  'justify-self',
+  'align-items',
+  'align-content',
+  'align-self',
+];
+
+const boxModel = [
   'display',
-  ...flexbox,
+  ...CSSGridLayoutModule,
+  ...FlexibleBoxLayoutModule,
+  ...CSSBoxAlignmentModule,
   'overflow',
   'box-sizing',
   'width',
