@@ -1,16 +1,19 @@
 # stylelint-config-idiomatic-css
 
-stylelint config, for idiomatic order css sorting rules
+Stylelint config, for idiomatic css rules and
+auto-sorting with prettier.
 
-## How install
+<img width="346" alt="HTML Academy" src="./screenshots/example.png">
+
+## Quick start
+
+1. Install
 
 ```
 npm i -D stylelint stylelint-config-idiomatic-css
 ```
 
-## How to use
-
-create `.stylelintrc.js` in root project folder
+2. Create `.stylelintrc.js` in root project folder.
 
 ```
 module.exports = {
@@ -20,7 +23,11 @@ module.exports = {
 };
 ```
 
-With SCSS (format on safe is working)
+3. Install [VSCode plugin](https://github.com/shinnn/vscode-stylelint)
+
+## Another config examples
+
+### SCSS
 
 ```
 npm i -D stylelint stylelint-config-standard stylelint-config-recommended-scss stylelint-config-idiomatic-css
@@ -36,7 +43,9 @@ module.exports = {
 };
 ```
 
-### Also u can use it with styled-components
+### Styled-components
+
+Auto-sorting does`t work
 
 ```
 npm i -D stylelint stylelint-processor-styled-components stylelint-config-standard stylelint-config-styled-components stylelint-config-idiomatic-css
@@ -51,13 +60,10 @@ module.exports = {
     'stylelint-config-idiomatic-css',
   ],
   syntax: 'scss',
-  rules: { 'declaration-empty-line-before': null, 'comment-empty-line-before': null },
 };
 ```
 
-For VSCode u need install `stylelint`
-
-If u use it for styled-components, u need some settings
+For use it with styled-components, u need some vscode settings
 
 ```
 "stylelint.additionalDocumentSelectors": [
