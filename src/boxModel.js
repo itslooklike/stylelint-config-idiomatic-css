@@ -53,6 +53,8 @@ const boxModel = [
   ...FlexibleBoxLayoutModule,
   ...CSSBoxAlignmentModule,
   'overflow',
+  'overflow-x',
+  'overflow-y',
   'box-sizing',
   'width',
   'min-width',

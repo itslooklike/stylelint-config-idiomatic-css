@@ -3,17 +3,17 @@
 Stylelint config, for idiomatic css rules and
 auto-sorting with prettier.
 
-<img width="346" alt="HTML Academy" src="./screenshots/example.png">
+<img width="346" src="./screenshots/example.png">
 
 ## Quick start
 
-1. Install
+1.  Install
 
 ```
 npm i -D stylelint stylelint-config-idiomatic-css
 ```
 
-2. Create `.stylelintrc.js` in root project folder.
+2.  Create `.stylelintrc.js` in root project folder.
 
 ```
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
 };
 ```
 
-3. Install [VSCode plugin](https://github.com/shinnn/vscode-stylelint)
+3.  Install [VSCode plugin](https://github.com/shinnn/vscode-stylelint)
 
 ## Another config examples
 
