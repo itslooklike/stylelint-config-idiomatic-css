@@ -17,6 +17,6 @@ const typography = [
   'white-space',
   'word-break',
   'word-spacing',
-];
+]
 
-module.exports = typography;
+module.exports = typography

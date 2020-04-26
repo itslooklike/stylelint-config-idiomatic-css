@@ -8,6 +8,6 @@ const other = [
   'background-origin',
   'background-clip',
   'background-attachment',
-];
+]
 
-module.exports = other;
+module.exports = other

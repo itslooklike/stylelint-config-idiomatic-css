@@ -8,7 +8,7 @@ const FlexibleBoxLayoutModule = [
   'flex-wrap',
   'flex-direction',
   'order',
-];
+]
 
 const gridParentRules = [
   'grid-template',
@@ -22,7 +22,7 @@ const gridParentRules = [
   'grid-auto-columns',
   'grid-auto-rows',
   'grid-auto-flow',
-];
+]
 
 const gridChildrenRules = [
   'grid-area',
@@ -32,10 +32,10 @@ const gridChildrenRules = [
   'grid-column-end',
   'grid-row-start',
   'grid-row-end',
-];
+]
 
 // https://www.w3.org/TR/css-grid-1/
-const CSSGridLayoutModule = [...gridParentRules, ...gridChildrenRules];
+const CSSGridLayoutModule = [...gridParentRules, ...gridChildrenRules]
 
 // https://www.w3.org/TR/css-align-3/
 const CSSBoxAlignmentModule = [
@@ -45,7 +45,7 @@ const CSSBoxAlignmentModule = [
   'align-items',
   'align-content',
   'align-self',
-];
+]
 
 const boxModel = [
   'display',
@@ -82,6 +82,6 @@ const boxModel = [
   'margin-right',
   'margin-bottom',
   'margin-left',
-];
+]
 
-module.exports = boxModel;
+module.exports = boxModel

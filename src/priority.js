@@ -1,3 +1,3 @@
-const priority = ['content'];
+const priority = ['content']
 
-module.exports = priority;
+module.exports = priority

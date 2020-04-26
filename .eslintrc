@@ -1,8 +1,0 @@
-{
-  "extends": ["eslint:recommended", "standard"],
-  "rules": {
-    "semi": ["error", "always"],
-    "comma-dangle": ["error", "only-multiline"],
-    "quotes": ["error", "single"]
-  }
-}
